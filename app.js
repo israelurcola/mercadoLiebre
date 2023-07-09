@@ -6,7 +6,7 @@ app.use(express.static('public'));
 
 
 app.get('/',function(req,res) {
-    res.send("lero lero");});
+    res.send("lero lero1");});
 
 app.get('/home', (req,res) => {
     res.sendFile (path.join(__dirname, '/views/home.html'))});
