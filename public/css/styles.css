@@ -14,11 +14,12 @@ header{
 
 .burger-menu{
     text-align: center;
-   /* background-color: blue;*/
-    
+      
+}
+.burger-menu button{
+    background-color: blue
 }
 
 footer{
     text-align: center;
-    
 }
