@@ -1,7 +1,7 @@
 .titular{ font-size:24px;}
 .cuerpo{ font-size: 12px;}
 .precio{font-size: 18px;}
-.descuneto{ font-size: 16px;}
+.descuento{ font-size: 16px;}
 .descripcion{ font-size: 16px;}
 
 img{
@@ -23,3 +23,40 @@ header{
 footer{
     text-align: center;
 }
+
+/* main{
+    width: 90%;
+} */
+article{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+body{
+    background-color: #ebebeb;
+}
+.cajaArticle{
+    border-top: 1px;
+    line-height: normal;
+    background-color: #ebebeb;
+    width: 100%;
+    /* border-top: 15px;
+    border-left: 15x;
+    border-right: 15px;
+    border-bottom: 15px; */
+    
+}
+.imagenArticle{
+    border-bottom:10px;
+    background-color: #eac926;
+    width: 100%;
+}
+
+
+@media(min-width: 361px) and (orientation: landscape){
+    body {
+
+    }
+}
+@media (min-width: 769px){
+    /* Laptop */}
