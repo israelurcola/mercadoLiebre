@@ -41,21 +41,20 @@ body{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 .cajaArticle{
-    border-top: 1px;
+    border-top: 1px solid red;
     line-height: normal;
     background-color: #ebebeb;
     width: 100%;
-    /* border-top: 15px;
     border-left: 15x;
     border-right: 15px;
-    border-bottom: 15px; */
+    border-bottom: 15px; 
     
 }
-.imagenArticle{
+/*.imagenArticle{
     border-bottom:10px;
     background-color: #eac926;
     width: 100%;
-}
+}*/
 
 
 @media(min-width: 361px) and (orientation: landscape){
@@ -68,7 +67,22 @@ body{
 
 .precioArti {
     display: flex;
-    flex-wrap: wrap 30%;
+    flex-direction: row 30% 70%;
+}
+.camion{
+    color:var(--verde);
+    display:flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    align-items: center;
+    justify-content: center;
 
 }
-
