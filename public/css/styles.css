@@ -1,7 +1,10 @@
 .titular{ font-size:24px;}
 .cuerpo{ font-size: 12px;}
 .precio{font-size: 18px;}
-.descuento{ font-size: 16px;}
+.descuento{ 
+    font-size: 16px;
+    color:#39b54a;
+}
 .descripcion{ 
     font-size: 16px;
    }
@@ -11,7 +14,7 @@ img{
 }
 .divnav{
     text-align: left;
-    margin-left:-9%;
+    margin-left:-10%;
 
 }
 header{
@@ -90,10 +93,11 @@ body{
     border: 1px solid #39b54a;
     background-color: #fff;
     border-radius: 50%;
-    position: absolute;
-    right: 20px;
+    position: relative;
+    left: 85%;
     top: -20px;
     align-items: center;
     justify-content: center;
 }
+
 
