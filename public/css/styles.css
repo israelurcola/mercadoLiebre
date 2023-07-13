@@ -1,9 +1,13 @@
 .titular{ font-size:24px;}
 .cuerpo{ font-size: 12px;}
-.precio{font-size: 18px;}
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
 .descuento{ 
     font-size: 16px;
     color:#39b54a;
+    width: 70%;
 }
 .descripcion{ 
     font-size: 16px;
@@ -40,7 +44,7 @@ footer{
 /* main{
     width: 90%;
 } */
-article{
+.producto{
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -59,6 +63,7 @@ body{
     border-bottom: 15px; 
     
 }
+
 /*.imagenArticle{
     border-bottom:10px;
     background-color: #eac926;
@@ -66,7 +71,7 @@ body{
 }*/
 
 
-@media(min-width: 361px) and (orientation: landscape){
+@media(min-width: 361px) {
     body {
 
     }
@@ -75,6 +80,7 @@ body{
     /* Laptop */}
 
 .precioArti {
+   
     margin: 10px;;
     padding: 0;
     height: 5%;
@@ -82,7 +88,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
+
 .camion{
     color:var(--verde);
     display:flex;
