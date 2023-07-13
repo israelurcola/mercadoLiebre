@@ -41,9 +41,20 @@ footer{
     text-align: center;
 }
 
-/* main{
-    width: 90%;
-} */
+.producto-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+.secciones-producto{
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    justify-content: center;
+    align-items: center;
+
+}
 .producto{
     padding-top: 5px;
     padding-bottom: 5px;
